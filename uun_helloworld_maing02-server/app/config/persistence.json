@@ -1,0 +1,19 @@
+{
+  "uuSubAppDataStore": {
+    "primary": {
+      "type": "uuAppObjectStore",
+      "realization": "MongoDB",
+      "schemaMap": {
+        "helloworldMain": {
+          "realization": "dao/HelloworldMainMongo"
+        },
+        "category": {
+          "realization": "dao/CategoryMongo"
+        },
+        "greet": {
+          "realization": "dao/GreetMongo"
+        }
+      }
+    }
+  }
+}
