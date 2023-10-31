@@ -7,6 +7,13 @@ const Constants = {
         // TODO: Add other schemas when you configure one in persistance.json and create mongo file for it
     },
 
+    GreetStates: {
+        CONSTRUCT: "Construct",
+        ACTIVE: "Active",
+        ARCHIVE: "Archive",
+    },
+
+
     Profiles: {
         AUTHORITIES: "Authorities",
         EXECUTIVES: "Executives",

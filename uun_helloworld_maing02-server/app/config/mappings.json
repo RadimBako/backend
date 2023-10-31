@@ -1,6 +1,11 @@
 {
   "{vendor}-{uuApp}-{uuSubApp}": {
     "useCaseMap": {
+      "helloworld/greetList": {
+        "realization": "api/controllers/HelloworldController.greetList",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
       "helloworld/greeting": {
         "realization": "api/controllers/HelloworldController.greeting",
         "httpMethod": "GET",

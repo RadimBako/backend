@@ -8,6 +8,13 @@ class HelloworldController {
             uuEnv.getDtoIn()
         );
     }
+    greetList(ucEnv) {
+        return helloworldAbl.greetList(
+            ucEnv.getUri().getAwid(),
+            ucEnv.getDtoIn(),
+            ucEnv.getAuthorizationResult()
+        )
+    }
 }
 
 module.exports = new HelloworldController();

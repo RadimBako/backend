@@ -18,6 +18,17 @@
       "AwidInitiator"
     ],
     "useCaseMap": {
+      "helloworld/greetList": {
+        "sysStateList": [
+          "active"
+        ],
+        "profileList": [
+          "Public",
+          "AwidLicenseOwner",
+          "Authorities",
+          "Executives"
+        ]
+      },
       "helloworld/greeting": {
         "sysStateList": [
           "created",
