@@ -10,7 +10,7 @@ class GreetMongo extends UuObjectDao {
     async list(awid, states) {
         let filter = { awid };
         if (states && states.length > 0) {
-            filter.state = { $in: states };
+            filter.states = { $in: states };
         }
         return super.find(filter);
     }
